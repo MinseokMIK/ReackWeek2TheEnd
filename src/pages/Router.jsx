@@ -33,9 +33,16 @@ const Router = () => {
 
 const StDiv = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh !important;
     text-align: center;
     background-color: skyblue;
+    display: flex;
+    justify-content : center;  /* 좌우정렬 */
+    align-items : center;  /* 상하정렬 */
+    flex-direction : column; /* 세로정렬 */
+    flex-wrap : wrap;
+
+
 `;
 
 export default Router;
